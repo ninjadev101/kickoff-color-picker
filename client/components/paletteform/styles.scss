@@ -1,0 +1,22 @@
+form {
+  width: 200px;
+}
+
+.color-palette {
+  display: flex;
+}
+
+.button-group {
+  display: flex;
+  margin-bottom: 0.5rem;
+
+  button {
+    width: 50%;
+  }
+
+  .primary {
+    background-color: cornflowerblue;
+    color: #eee;
+    border-color: blue;
+  }
+}
